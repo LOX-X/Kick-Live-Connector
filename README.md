@@ -47,6 +47,13 @@ kickConnection.on(Events.ChatMessage, (data) => {
 // ... more events described in the documentation below
 ```
 
+3. For typeScript run the following command.
+
+This will create a tsconfig.json file in your project root, which you can modify to suit your project's specific TypeScript settings.
+```
+tsc --init
+```
+
 ## Events
 
 Connection Events:
